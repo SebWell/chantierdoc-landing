@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chantierdoc.fr/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
+
+# Bloquer les ressources non utiles pour le SEO
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /*?*utm_*
+Disallow: /*?*fbclid*
+Disallow: /*?*gclid*
+
+# Permettre l'accès aux ressources importantes
+Allow: /static/images/
+Allow: /static/css/
+Allow: /static/js/
+
+# Bloquer les pages de test et développement
+Disallow: /test/
+Disallow: /dev/
+Disallow: /staging/
+
+# Pages importantes à crawler en priorité
+# (optionnel - géré via sitemap.xml)
+Allow: /
+Allow: /features
+Allow: /pricing
+Allow: /about
+Allow: /contact
+Allow: /blog/ 
