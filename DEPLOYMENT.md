@@ -16,19 +16,7 @@ npm run build
 
 ## ☁️ Déploiement Cloudflare Pages (Recommandé)
 
-### Option 1: Via Wrangler CLI
-
-```bash
-# Build
-npm run build
-
-# Déployer
-npx wrangler pages deploy dist --project-name chantierdoc-landing
-
-# URL générée: https://[hash].chantierdoc-landing.pages.dev
-```
-
-### Option 2: Via GitHub Integration
+### Via GitHub Integration (Automatique)
 
 1. Push sur GitHub
 2. Dashboard Cloudflare > Pages > "Create project"
