@@ -1,0 +1,8 @@
+name = "chantierdoc-landing"
+compatibility_date = "2025-10-03"
+
+# Pages configuration
+pages_build_output_dir = "dist"
+
+[site]
+bucket = "./dist"
