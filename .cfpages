@@ -1,7 +1,0 @@
-{
-  "production_branch": "master",
-  "build": {
-    "command": "npm run build",
-    "destination_dir": "dist"
-  }
-}
